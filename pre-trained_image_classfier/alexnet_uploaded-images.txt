@@ -1,0 +1,59 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 5 key-value pairs.
+Below are 5 of them:
+ 1 key:                  Ferret_01.jpg  label:                     ferret
+ 2 key:               Shiba_Inu_03.jpg  label:                  shiba inu
+ 3 key:               Shiba_Inu_02.jpg  label:                  shiba inu
+ 4 key:               Shiba_Inu_01.jpg  label:                  shiba inu
+ 5 key:                   8Ball_01.jpg  label:                           
+
+     MATCH:
+
+                  8Ball_01.jpg: 
+Real:                              Classifier:              puck, hockey puck
+
+ NOT A MATCH:
+
+                 Ferret_01.jpg: 
+Real:                     ferret   Classifier: polecat, fitch, foulmart, foumart, mustela putorius
+
+              Shiba_Inu_03.jpg: 
+Real:                  shiba inu   Classifier: pembroke, pembroke welsh corgi, corgi
+
+              Shiba_Inu_02.jpg: 
+Real:                  shiba inu   Classifier: pembroke, pembroke welsh corgi, corgi
+
+              Shiba_Inu_01.jpg: 
+Real:                  shiba inu   Classifier:              eskimo dog, husky
+
+# Total Images 5 # Matches: 1 # NOT Matches: 4
+
+     MATCH:
+
+                  8Ball_01.jpg: 
+Real:                              Classifier:              puck, hockey puck  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                 Ferret_01.jpg: 
+Real:                     ferret   Classifier: polecat, fitch, foulmart, foumart, mustela putorius  
+PetLabelDog: 0  ClassLabelDog: 0
+
+              Shiba_Inu_03.jpg: 
+Real:                  shiba inu   Classifier: pembroke, pembroke welsh corgi, corgi  
+PetLabelDog: 0  ClassLabelDog: 1
+
+              Shiba_Inu_02.jpg: 
+Real:                  shiba inu   Classifier: pembroke, pembroke welsh corgi, corgi  
+PetLabelDog: 0  ClassLabelDog: 1
+
+              Shiba_Inu_01.jpg: 
+Real:                  shiba inu   Classifier:              eskimo dog, husky  
+PetLabelDog: 0  ClassLabelDog: 1
+
+# Total Images 5 # Matches: 1 # NOT Matches: 4
